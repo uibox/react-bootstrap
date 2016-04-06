@@ -51,7 +51,7 @@ export default function BuildDocs({dev}) {
     .then(() => fsp.mkdir(docsBuilt))
     .then(metadata)
     .then(propData => {
-      Root.assetBaseUrl = '';
+      Root.assetBaseUrl = '.';
       Root.propData = propData;
 
       const pagesGenerators = Root.getPages().map(generateHTML);

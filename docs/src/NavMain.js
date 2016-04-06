@@ -5,19 +5,19 @@ import Nav from '../../src/Nav';
 
 const NAV_LINKS = {
   'introduction': {
-    link: '/introduction.html',
+    link: './introduction.html',
     title: 'Introduction'
   },
   'getting-started': {
-    link: '/getting-started.html',
+    link: './getting-started.html',
     title: 'Getting started'
   },
   'components': {
-    link: '/components.html',
+    link: './components.html',
     title: 'Components'
   },
   'support': {
-    link: '/support.html',
+    link: './support.html',
     title: 'Support'
   }
 };
@@ -42,7 +42,7 @@ const NavMain = React.createClass({
       >
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to="/">React-Bootstrap</Link>
+            <Link to="./index.html">React-Bootstrap</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>

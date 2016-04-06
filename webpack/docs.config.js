@@ -31,7 +31,7 @@ export default _.extend({}, baseConfig, {
   output: {
     filename: '[name].js',
     path: './docs-built/assets',
-    publicPath: options.debug ? `${webpackDevServerAddress}/assets/` : '/assets/'
+    publicPath: options.debug ? `${webpackDevServerAddress}/assets/` : './'
   },
 
   module: {
