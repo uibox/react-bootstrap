@@ -3,7 +3,7 @@ const mediaListInstance = (
     <Media.List>
       <Media.ListItem>
         <Media.Left>
-          <img width={64} height={64} src="/assets/thumbnail.png" alt="Image"/>
+          <img width={64} height={64} src="./assets/thumbnail.png" alt="Image"/>
         </Media.Left>
         <Media.Body>
           <Media.Heading>Media heading</Media.Heading>
@@ -11,7 +11,7 @@ const mediaListInstance = (
 
             <Media>
               <Media.Left>
-                <img width={64} height={64} src="/assets/thumbnail.png" alt="Image"/>
+                <img width={64} height={64} src="./assets/thumbnail.png" alt="Image"/>
               </Media.Left>
               <Media.Body>
                 <Media.Heading>Nested media heading</Media.Heading>
@@ -19,7 +19,7 @@ const mediaListInstance = (
 
                 <Media>
                   <Media.Left>
-                    <img width={64} height={64} src="/assets/thumbnail.png" alt="Image"/>
+                    <img width={64} height={64} src="./assets/thumbnail.png" alt="Image"/>
                   </Media.Left>
                   <Media.Body>
                     <Media.Heading>Nested media heading</Media.Heading>
@@ -31,7 +31,7 @@ const mediaListInstance = (
 
             <Media>
               <Media.Left>
-                <img width={64} height={64} src="/assets/thumbnail.png" alt="Image"/>
+                <img width={64} height={64} src="./assets/thumbnail.png" alt="Image"/>
               </Media.Left>
               <Media.Body>
                 <Media.Heading>Nested media heading</Media.Heading>
