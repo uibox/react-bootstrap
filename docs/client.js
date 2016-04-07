@@ -3,6 +3,7 @@ import 'codemirror/addon/runmode/runmode';
 import 'codemirror/mode/jsx/jsx';
 
 import createBrowserHistory from 'history/lib/createBrowserHistory';
+import useBasename from 'history/lib/useBasename';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router} from 'react-router';
@@ -31,7 +32,9 @@ global.CodeMirror = CodeMirror;
 Root.assetBaseUrl = window.ASSET_BASE_URL;
 Root.propData = window.PROP_DATA;
 
-const history = createBrowserHistory();
+const history = useBasename(createBrowserHistory)({
+  basename: '/react-bootstrap'
+});
 
 ReactDOM.render(
   <Router history={history} children={routes} />,
