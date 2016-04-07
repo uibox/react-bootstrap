@@ -42,7 +42,7 @@ const NavMain = React.createClass({
       >
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to="index.html">React-Bootstrap</Link>
+            <Link to="/">React-Bootstrap</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
